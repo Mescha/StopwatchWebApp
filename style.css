@@ -1,0 +1,63 @@
+*{
+  
+     box-sizing: border-box;
+     margin: 0;
+     font-family: 'Fira sans', sans-serif;
+
+}
+
+body{
+    background: #1F2937;
+}
+
+
+.main-container{
+
+    background: #111827;
+    max-width:400px;
+    margin:4rem auto;
+    padding:1rem 2 rem;
+    border-radius: 1rem;
+    height: 150px;
+    
+}
+
+.screen{
+
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    color: white;
+    font-size:70px;
+}
+
+
+.controls{
+
+    display:flex;
+    justify-content:center;
+    align-content:center;
+
+}
+
+.controls button{
+
+    background: none;
+    cursor: pointer;
+    border:none;
+    outline:none;
+    color:  white;
+    background-color: crimson;
+    margin:0 0.5rem;
+    padding:0.5rem 1rem;
+    font-size:1.5rem;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+button:active{
+    background-color: #111827;
+}
+
